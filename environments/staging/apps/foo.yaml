@@ -14,7 +14,7 @@ spec:
     path: environments/staging/foo
   destination:
     server: https://kubernetes.default.svc
-    namespace: prod
+    namespace: foo
   syncPolicy:
     automated:
       prune: true
