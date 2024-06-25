@@ -19,7 +19,7 @@ spec:
       - image: vibpositive/nginx:v0.0.1
         name: nginx
         ports:
-          - containerPorts: 80
+          - containerPort: 80
         resources:
           limits:
             memory: "1Gi"
