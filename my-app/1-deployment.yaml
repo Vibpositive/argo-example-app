@@ -16,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: vibpositive/nginx:v0.0.2
+      - image: vibpositive/nginx:v0.0.3
         name: nginx
         ports:
           - containerPort: 80
